@@ -1,19 +1,21 @@
-## Hi, I'm Shiva 👋
+# Hi, I'm Shiva 👋
 
-I'm building toward a career as a **GenAI / LLM Security engineer**.
+AI red teamer focused on LLM and agentic system security.
 
-### What I'm working on
-- **Adversarial RAG System** — building a RAG pipeline from scratch, attacking it with 7+ adversarial classes (prompt injection, system prompt extraction, PII leakage, multilingual attacks), then hardening it.
-- Studying LLM internals end-to-end: transformer architecture, training (SFT, RLHF, LoRA), inference (KV cache, quantization), retrieval (hybrid search, reranking), and evaluation.
+## What I'm working on
 
-### What I've built
-- **makemore-from-scratch** — character-level language model. Beat Karpathy's dev loss (2.1659 vs 2.1701).
+- **Agentic indirect prompt injection benchmark** (in progress, July 2026) — measuring agent actions (tool calls, real-world effects), not just model outputs.
+- **Gray Swan Arena** — active jailbreak research, top 20% globally. Building a working taxonomy of jailbreak patterns.
+
+## What I've built
+
+- **Adversarial RAG Security Audit (Adv-RAG)** — defended RAG pipeline built from scratch, audited across 6 OWASP LLM Top 10 attack classes. Surfaced three novel failure mechanisms: Denial-Pattern Leakage, Source-Tag Leakage, and the negative-list problem in defense composition.
+- **makemore-from-scratch** — character-level language model. Beat Karpathy's dev loss benchmark (2.1659 vs 2.1701).
 - **micrograd-from-scratch** — autograd engine from first principles.
-- **Global AQI Risk** — air quality analysis with Random Forest + Streamlit.
 
-### How I work
-- Build from first principles, no high-level libraries (no LangChain, no LlamaIndex).
-- Type every line of code myself — no copy-paste.
-- Document weak points and mistakes, not just wins.
+## How I work
 
-📫 Reach me on [LinkedIn](https://www.linkedin.com/in/sai-krishna-kesanupalli-25aa75262/)
+- Build from first principles. No LangChain, no LlamaIndex.
+- Document failure modes and weak points, not just wins.
+
+📫 [LinkedIn](https://www.linkedin.com/in/shiva-sai-krishna-kesanupalli-25aa75262/)
